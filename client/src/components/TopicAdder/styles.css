@@ -1,0 +1,31 @@
+.form-topics {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.form-topics input {
+    margin-right: 20px;
+    height: 30px;
+    width: 250px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.form-topics button {
+    font-size: 0.9em;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    background-color: rgba(74,144,226,255);
+    height: 40px;
+    width: 100px;
+    transition: 0.8s;
+    font-weight: bolder;
+    border: none;
+}
+
+.form-topics button:hover {
+    cursor: pointer;
+    background-color: rgb(42, 192, 243);
+}
